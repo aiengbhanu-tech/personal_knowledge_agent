@@ -1,0 +1,110 @@
+{
+  "scope": "16 hand-authored synthetic regression cases; small local corpus; no held-out generalization claim",
+  "retrieval_mode": "offline FTS5; no cloud calls",
+  "cases_passed": 16,
+  "cases_total": 16,
+  "source_and_quote_hit_at_5": 1.0,
+  "abstention_accuracy": 1.0,
+  "exact_citations_verified": 13,
+  "retrieval_latency_median_ms": 0.702,
+  "retrieval_latency_p95_ms": 0.937,
+  "latency_method": "16 sequential in-process requests; includes SQLite reads, excludes HTTP/ingestion/cloud; nearest lower percentile",
+  "results": [
+    {
+      "question": "What did we decide about Starter pricing?",
+      "passed": true,
+      "expected_abstention": false,
+      "latency_ms": 1.53
+    },
+    {
+      "question": "Starter pricing",
+      "passed": true,
+      "expected_abstention": false,
+      "latency_ms": 0.758
+    },
+    {
+      "question": "Growth pricing",
+      "passed": true,
+      "expected_abstention": false,
+      "latency_ms": 0.705
+    },
+    {
+      "question": "existing customers rate",
+      "passed": true,
+      "expected_abstention": false,
+      "latency_ms": 0.575
+    },
+    {
+      "question": "What commitments were made?",
+      "passed": true,
+      "expected_abstention": false,
+      "latency_ms": 0.937
+    },
+    {
+      "question": "deployment architecture",
+      "passed": true,
+      "expected_abstention": false,
+      "latency_ms": 0.603
+    },
+    {
+      "question": "What decisions were made about deployment architecture?",
+      "passed": true,
+      "expected_abstention": false,
+      "latency_ms": 0.668
+    },
+    {
+      "question": "pilot budget",
+      "passed": true,
+      "expected_abstention": false,
+      "latency_ms": 0.823
+    },
+    {
+      "question": "What did we approve about budget?",
+      "passed": true,
+      "expected_abstention": false,
+      "latency_ms": 0.681
+    },
+    {
+      "question": "encrypted backups",
+      "passed": true,
+      "expected_abstention": false,
+      "latency_ms": 0.779
+    },
+    {
+      "question": "retention uploads",
+      "passed": true,
+      "expected_abstention": false,
+      "latency_ms": 0.771
+    },
+    {
+      "question": "onboarding documents",
+      "passed": true,
+      "expected_abstention": false,
+      "latency_ms": 0.794
+    },
+    {
+      "question": "quantum entanglement",
+      "passed": true,
+      "expected_abstention": true,
+      "latency_ms": 0.475
+    },
+    {
+      "question": "pricing",
+      "passed": true,
+      "expected_abstention": true,
+      "latency_ms": 0.57
+    },
+    {
+      "question": "architecture",
+      "passed": true,
+      "expected_abstention": true,
+      "latency_ms": 0.699
+    },
+    {
+      "question": "this script must not be indexed",
+      "passed": true,
+      "expected_abstention": true,
+      "latency_ms": 0.519
+    }
+  ]
+}

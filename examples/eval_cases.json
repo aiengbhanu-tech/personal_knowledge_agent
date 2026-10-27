@@ -1,0 +1,18 @@
+[
+  {"question":"What did we decide about Starter pricing?", "start_date":"2026-09-01", "end_date":"2026-10-01", "expected_file":"pricing-september.md", "expected_quote":"USD 99"},
+  {"question":"Starter pricing", "start_date":"2026-10-01", "end_date":"2026-11-01", "expected_file":"pricing-october.md", "expected_quote":"USD 149"},
+  {"question":"Growth pricing", "start_date":"2026-09-01", "end_date":"2026-10-01", "expected_file":"pricing-september.md", "expected_quote":"USD 249"},
+  {"question":"existing customers rate", "start_date":"2026-10-01", "end_date":"2026-11-01", "expected_file":"pricing-october.md", "expected_quote":"keep the USD 99"},
+  {"question":"What commitments were made?", "modality":"meeting", "expected_file":"meeting.json", "expected_quote":"deployment checklist"},
+  {"question":"deployment architecture", "modality":"meeting", "expected_file":"meeting.json", "expected_quote":"FastAPI"},
+  {"question":"What decisions were made about deployment architecture?", "modality":"meeting", "expected_file":"meeting.json", "expected_quote":"Qdrant"},
+  {"question":"pilot budget", "modality":"email", "expected_file":"pilot.eml", "expected_quote":"USD 500"},
+  {"question":"What did we approve about budget?", "modality":"email", "expected_file":"pilot.eml", "expected_quote":"USD 500"},
+  {"question":"encrypted backups", "modality":"web_export", "expected_file":"security.html", "expected_quote":"encrypted"},
+  {"question":"retention uploads", "modality":"web_export", "expected_file":"security.html", "expected_quote":"30 days"},
+  {"question":"onboarding documents", "modality":"email", "expected_file":"pilot.eml", "expected_quote":"onboarding"},
+  {"question":"quantum entanglement", "expect_abstain":true},
+  {"question":"pricing", "start_date":"2025-01-01", "end_date":"2025-02-01", "expect_abstain":true},
+  {"question":"architecture", "modality":"email", "expect_abstain":true},
+  {"question":"this script must not be indexed", "modality":"web_export", "expect_abstain":true}
+]
